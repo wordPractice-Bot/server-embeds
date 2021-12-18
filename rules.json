@@ -1,0 +1,57 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "Rules & Guidelines",
+      "description": "Discord [Terms of Service](https://discord.com/terms), as well as the wordPractice [Terms of Service](https://principle105.github.io/privacy-policy/rules.html) must be followed at all times.",
+      "color": 5814783,
+      "fields": [
+        {
+          "name": "1 ] Use Common Sense",
+          "value": "> Anything not stated here should be decided using common sense. Staff members have the final word. Staff may perform moderation actions based on their best judgment.",
+          "inline": true
+        },
+        {
+          "name": "2] Unwanted Content",
+          "value": "> We value the ability to speak freely but we reserve the right to restrict this when needed. Do not impersonate members of staff or bots (including your username and nickname). This hinders other members abilities to correctly identify staff. Do not post porn, gore, suggestive or inappropriate content; NSFW content will not tolerated on this server.",
+          "inline": true
+        },
+        {
+          "name": "‎",
+          "value": "‎"
+        },
+        {
+          "name": "3 ] Be Respectful!",
+          "value": "> Treat everyone with respect. This includes (but not limited to) using respectful language, behaving, do not bully, harass, hate, discriminate or encourage disrespectful behaviour towards other members or groups. Profanity is permitted in moderation when not directed towards any person or group. Be patient and don't be rude, people may not be quick to understand or not speak English as their native language. Do not mention (ping) staff or members without a valid reason, consider using DMs.",
+          "inline": true
+        },
+        {
+          "name": "4 ] No Advertising",
+          "value": "> Talking about and providing links to other partner servers or popular/large servers discord servers is permitted. You may show a discord invite link in your user status but not your username or nickname. Linking to YouTube/Twitch/3rd-party videos is permitted as long as it's not self-promotion.",
+          "inline": true
+        },
+        {
+          "name": "‎",
+          "value": "‎"
+        },
+        {
+          "name": "5 ] Unwanted Behaviour",
+          "value": "> Spamming, especially to gain levels, will result in a reset of levels. Spamming GIFs or images, is also not allowed.",
+          "inline": true
+        },
+        {
+          "name": "6 ] Privacy & Safety",
+          "value": "> Any behaviour (attempted or otherwise) that demonstrates the willingness to invade the privacy or safety of another member will not be tolerated. This includes (but not limited to) sending malware, IP/Session logging, network manipulation, hacking/cracking, doxing, compromising accounts or scamming. Remember to exercise caution when receiving or sending files to or from another member and not to share any private login information with someone you do not trust.",
+          "inline": true
+        },
+        {
+          "name": ":cow: **Mooderators:**",
+          "value": "<@741791680533102652> , <@410589923242934283>, <@669259508656111617>, <@307614901931868163>, <@503813628622012455>, <@762811522702376961>\n\n> If you feel that a staff member has been unjust in their decision, reach out to the moderation team via modmail"
+        }
+      ],
+      "footer": {
+        "text": "Thomas was here"
+      }
+    }
+  ]
+}
