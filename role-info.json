@@ -1,0 +1,76 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "Staff Roles:",
+      "description": "These roles include all staff roles, including support and development. \n**Please use your judgement when pinging users with these roles.**",
+      "color": 3553599,
+      "fields": [
+        {
+          "name": "** **",
+          "value": "> <@&915025478652395542>\n> Manages and creates content for the <@743183681182498906> bot.",
+          "inline": true
+        },
+        {
+          "name": "** **",
+          "value": "> <@&915023582323699782>\n> Handles moderation issues, both within the bot and this server. Contact support by reading <#917186322173669426>.",
+          "inline": true
+        },
+        {
+          "name": "** **",
+          "value": "> <@&915023519711117332>\n> Help with moderation of the Discord community. Common issues can be resolved by reading <#917242902491578449>",
+          "inline": true
+        }
+      ]
+    },
+    {
+      "title": "Miscellaneous Roles:",
+      "description": "These roles include extra roles awarded to special individuals.",
+      "color": 3553599,
+      "fields": [
+        {
+          "name": "** **",
+          "value": "> <@&915036560259428433>\n> Awarded (automagically!!) to users who have kindly nitro-boosted our server! Thank you!",
+          "inline": true
+        },
+        {
+          "name": "** **",
+          "value": "> <@&915375109785669682>\n> Assigned to users who have been accepted into the Beta Testing program. More info can be found here: <#916728057413394532>",
+          "inline": true
+        },
+        {
+          "name": "** **",
+          "value": "> <@&915061304094515200>\n> Assigned to users who own a verified bot. Can be obtained by creating a support ticket and requesting the role.",
+          "inline": true
+        },
+        {
+          "name": "** **",
+          "value": "> <@&915061303431790672>\n> Assigned to users who have posted a Youtube video (< 2 min) covering the wordPractice bot.  Create a support ticket to obtain this role.\n> \n> **This role is assigned at the discretion of a moderator.**",
+          "inline": true
+        },
+        {
+          "name": "** **",
+          "value": "> <@&920039641028100177>\n> Rewarded to users who have **responsibly** found and report bugs on either canary or production instance. More info: <#921809154027454514>",
+          "inline": true
+        }
+      ]
+    },
+    {
+      "title": "wordPractice Bot Milestones:",
+      "description": "> These roles are automatically assigned when you type `%roles`.",
+      "color": 3553599,
+      "fields": [
+        {
+          "name": "Word Milestones:",
+          "value": "Based on total words typed\n\n<@&915027882592600064>\n<@&915026301314826310>\n<@&915026302019436584> \n<@&915026302631833640>\n <@&915026303256764436>\n<@&915026303881740349>\n<@&915026304309555241>\n<@&915026304913526806>\n<@&915026305618182164>\n<@&915026306192781402>",
+          "inline": true
+        },
+        {
+          "name": "WPM Milestones:",
+          "value": "Based on average wpm over 10 tests\n\n<@&915039111595847681>\n<@&915039141224398848>\n<@&915039141819994183>\n<@&915039142272958476>\n<@&915039143053131786>\n<@&915039143602552862>\n<@&915039197562294333>\n<@&915039198317269042>\n<@&915039198602469377>\n<@&915039199495872512>",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
