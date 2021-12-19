@@ -1,0 +1,121 @@
+{
+  "content": null,
+  "embeds": [
+    {
+      "title": "How to use Modmail??",
+      "description": "Modmail is the system we use to facilitate support with our users. Below is a comprehensive list of features you can use. \n\n> **Prefix**: `&`\n\n> `<>` = Required Arguments\n> `[]` = Optional Arguments",
+      "color": 5814783,
+      "fields": [
+        {
+          "name": "`&ar <msg>`",
+          "value": "**Example:** `&ar Harold is cheese`\n\nSend an anonymous reply to the user. Anonymous replies only show the moderator's role in the reply.",
+          "inline": true
+        },
+        {
+          "name": "`&r <msg>`",
+          "value": "**Example:** `&r Thomas likes eating`\n\nSend an anonymous reply to the user. Anonymous replies only show the moderator's role in the reply.",
+          "inline": true
+        },
+        {
+          "name": "`&close [-s] [time/close]`",
+          "value": "**Example(s):** \n`&close`  - Immediately closes the thread.\n`&close -s 1h` - Closes thread in 1 hour, silently.\n`&close cancel` - Cancels a timed close.\n** **\nCloses a modmail thread. The `time` option allows you to specify a delay. The `-s` switch allows you close it without notifying the user. the `cancel` command cancels a timed close."
+        },
+        {
+          "name": "`&delete <supportMsgID>`",
+          "value": "**Example:**\n`&delete 6`\n\n\nDelete your previous reply sent with `&r`. `<supportMsgID>` is the message number shown in front of staff replies in the thread channel.",
+          "inline": true
+        },
+        {
+          "name": "`&edit <supportMsgID> <newMSG>`",
+          "value": "**Example(s):** \n`&edit 6 This is edited.`\n`&edit 9 This is another edited msg.`\n\nEdit your previous reply sent with `&r`. `<supportMsgID>` is the message number shown in front of staff replies in the thread channel.",
+          "inline": true
+        },
+        {
+          "name": "** **",
+          "value": "** **"
+        },
+        {
+          "name": "`&logs <userID> [-v/-s]`",
+          "value": "**Example(s):**\n`&logs 384849797674172416 -v -s`\n`&logs 384849797674172416 -v`\n`&logs 384849797674172416`\n\nView previous Modmail logs with current user.\n`-v` switch allows you to view channel and message IDs between the bot and the user (Useful for reporting messages to discord)\n`-s` switch allows you to see only the messages to/from user. (ignores other messages)",
+          "inline": true
+        },
+        {
+          "name": "`&loglink [-v/-s]`",
+          "value": "**Example(s):**\n`&loglink 384849797674172416 -v -s`\n`&loglink 384849797674172416 -s`\n`&loglink 384849797674172416`\n\nExact same as `&logs`, but allows you to view the current thread.",
+          "inline": true
+        },
+        {
+          "name": "** **",
+          "value": "** **"
+        },
+        {
+          "name": "`&block <userID> [time]`",
+          "value": "**Example:**\n`&block 384849797674172416 10d`\n\nPrevent user from using Modmail for a specified amount of time. Not including `[time]` will prevent them from using modmail indefinitely",
+          "inline": true
+        },
+        {
+          "name": "`&unblock <userID>`",
+          "value": "**Example:** \n`&unblock 384849797674172416`\n\nUnblocks a specified user ID.",
+          "inline": true
+        },
+        {
+          "name": "** **",
+          "value": "** **"
+        },
+        {
+          "name": "`&suspend`",
+          "value": "**Example:** `&suspend`\n\nSuspends the thread: The thread will act as closed and will not recieve any messages until `&unsuspend`ed.",
+          "inline": true
+        },
+        {
+          "name": "`&unsuspend`",
+          "value": "**Example:** `&unsuspend`\n\nUnsuspends the thread. See `&suspend` above.",
+          "inline": true
+        },
+        {
+          "name": "** **",
+          "value": "** **"
+        },
+        {
+          "name": "`&alert`",
+          "value": "**Example:** `&alert`\n\nPings you when the thread gets a new reply.",
+          "inline": true
+        },
+        {
+          "name": "`&alert cancel`",
+          "value": "**Example:** `&alert cancel`\n\nCancels the ping set by `&alert`",
+          "inline": true
+        },
+        {
+          "name": "** **",
+          "value": "** **"
+        },
+        {
+          "name": "`&id`",
+          "value": "**Example:** `&id`\n\nPrints the user's ID.",
+          "inline": true
+        },
+        {
+          "name": "`&dm_channel_id`",
+          "value": "**Example:** `&dm_channel_id`\n\nPrints the channel ID of the current DM channel with user.",
+          "inline": true
+        },
+        {
+          "name": "`&newthread <userID>`",
+          "value": "**Example:**\n`&newthread 384849797674172416`\n\nOpens a modmail thread with a specified user ID.",
+          "inline": true
+        },
+        {
+          "name": "`&message <supportMsgID>`",
+          "value": "**Example:** `&message 3`\n\nSends all IDs of a certain message (channels, message, message link).\n\n`<supportMsgID>` is the message number shown in front of staff replies in the thread channel.",
+          "inline": true
+        },
+        {
+          "name": "`&is_blocked <userID>`",
+          "value": "Queries if the specified user is blocked or not.",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}
